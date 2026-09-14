@@ -79,7 +79,7 @@ plt.xticks(
 plt.tight_layout()
 plt.show()
 
-# Oppgave 7 - beregner nettoeffekt
+# Oppgave 7 - beregner nettoeffekt mellom produksjon og forbruk
 
 df["Netto"] = df["Production"] - df["Consumption"]
 
