@@ -86,7 +86,7 @@ df["Netto"] = df["Production"] - df["Consumption"]
 print("\nData med nettoeffekt:")
 print(df.head())
 
-# Oppgave 8 - statistikk for produksjonen
+# Oppgave 8 - finner maks, min og gjennomsnittlig produksjon
 
 maks_produksjon = df["Production"].max()
 min_produksjon = df["Production"].min()
