@@ -211,7 +211,7 @@ plt.xticks(
 plt.tight_layout()
 plt.show()
 
-# Oppgave 14 - finner tidspunkt for maks produksjon og forbruk
+# Oppgave 14 - analyserer produksjon og forbruk
 
 maks_prod_tid = df["Production"].idxmax()
 maks_forbruk_tid = df["Consumption"].idxmax()
