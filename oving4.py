@@ -122,7 +122,7 @@ print("\nTotal produksjon:")
 print(total_produksjon_mwh, "MWh")
 print(total_produksjon_twh, "TWh")
 
-# Oppgave 11 - produksjon og forbruk over tid
+# Oppgave 11 - visualiserer produksjon og forbruk over tid
 
 import matplotlib.pyplot as plt
 
